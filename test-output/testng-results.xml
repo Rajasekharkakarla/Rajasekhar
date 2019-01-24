@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70819" started-at="2019-01-24T12:11:36Z" finished-at="2019-01-24T12:12:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="70819" started-at="2019-01-24T12:11:36Z" finished-at="2019-01-24T12:12:47Z">
+      <class name="task1.Make_my_trip">
+        <test-method status="PASS" signature="loadBrowser(java.lang.String)[pri:0, instance:task1.Make_my_trip@6b09bb57]" name="loadBrowser" is-config="true" duration-ms="36947" started-at="2019-01-24T17:41:36Z" finished-at="2019-01-24T17:42:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBrowser -->
+        <test-method status="PASS" signature="TicketBooking()[pri:0, instance:task1.Make_my_trip@6b09bb57]" name="TicketBooking" duration-ms="7171" started-at="2019-01-24T17:42:13Z" finished-at="2019-01-24T17:42:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TicketBooking -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:task1.Make_my_trip@6b09bb57]" name="fail" is-config="true" duration-ms="0" started-at="2019-01-24T17:42:21Z" finished-at="2019-01-24T17:42:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TicketBooking status=SUCCESS method=Make_my_trip.TicketBooking()[pri:0, instance:task1.Make_my_trip@6b09bb57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+      </class> <!-- task1.Make_my_trip -->
+      <class name="task1.Login">
+        <test-method status="PASS" signature="loadBrowser(java.lang.String)[pri:0, instance:task1.Login@6536e911]" name="loadBrowser" is-config="true" duration-ms="26674" started-at="2019-01-24T17:42:21Z" finished-at="2019-01-24T17:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:task1.Login@6536e911]" name="login" duration-ms="3" started-at="2019-01-24T17:42:47Z" finished-at="2019-01-24T17:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="fail(org.testng.ITestResult)[pri:0, instance:task1.Login@6536e911]" name="fail" is-config="true" duration-ms="0" started-at="2019-01-24T17:42:47Z" finished-at="2019-01-24T17:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Login.login()[pri:0, instance:task1.Login@6536e911] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail -->
+      </class> <!-- task1.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

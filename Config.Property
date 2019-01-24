@@ -1,0 +1,5 @@
+ChromeDriver=F:\Selenium Practice Work Space\ZenQ\Drivers\chromedriver.exe
+InternetDriver=F:\Selenium Practice Work Space\ZenQ\Drivers\IEDriverServer.exe
+FirefoxDriver=F:\Selenium Practice Work Space\ZenQ\Drivers\geckodriver-master
+URL=https://www.makemytrip.com/
+DataSheet=F:\Selenium Practice Work Space\ZenQ\Docs\Test.xlsx
